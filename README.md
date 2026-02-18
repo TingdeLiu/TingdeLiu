@@ -60,7 +60,6 @@ print(researcher.current_mission())
 <td width="33%">
 
 ### 🧭 Robot Navigation
-- Vision SLAM
 - Semantic SLAM
 - Object-Goal Navigation
 - Sim-to-Real Transfer
