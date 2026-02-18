@@ -55,7 +55,6 @@ print(researcher.current_mission())
 - Embodied Question Answering
 - Instruction Following in 3D Environments
 - Multi-Modal Sensor Fusion
-- **Agentic AI**
 
 </td>
 <td width="50%">
@@ -68,6 +67,8 @@ print(researcher.current_mission())
 
 </td>
 </tr>
+
+- **Agentic AI**
 </table>
 
 ---
