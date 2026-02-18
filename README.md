@@ -13,10 +13,9 @@
 ---
 
 ## 🧠 About Me
-
-```html
+```
 <p align="center">
-  <img src="[carbon.png](https://github.com/TingdeLiu/TingdeLiu/blob/main/carbon.png)" alt="Tingde Liu's Profile" width="600">
+  <img src="carbon.png" alt="Tingde Liu's Profile" width="600">
 </p>
 ```
 ---
