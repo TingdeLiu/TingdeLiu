@@ -130,10 +130,6 @@ print(researcher.current_mission())
 
 <div align="center">
   
-### 🌟 "The future of AI is embodied" 🤖
-
-![Visitor Count](https://komarev.com/ghpvc/?username=TingdeLiu&color=00F7F4&style=flat-square&label=Profile+Views)
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Let's%20Build%20Intelligent%20Robots!&fontSize=20&fontColor=fff&animation=twinkling&fontAlignY=75" />
 
 </div>
