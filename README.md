@@ -1,19 +1,10 @@
-```ascii
- _____ _             _     _     _       
-|_   _(_)_ __   __ _| |   (_)_ _| |_ __  
-  | | | | '_ \ / _` | |   | | | | | '_ \ 
-  | | | | | | | (_| | |___| | |_| | |_) |
-  |_| |_|_| |_|\__, |_____|_|\__,_|_.__/ 
-               |___/                       
-```
-
 <div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7F4&center=true&vCenter=true&width=500&lines=Embodied+AI+Engineer+🤖;Vision-Language+Navigation+Researcher;Building+Robots+That+Understand+Language)](https://git.io/typing-svg)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Tingde%20Liu&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Embodied%20AI%20Engineer%20%7C%20VLN%20Researcher&descAlignY=60&descSize=18" />
 
 </div>
 
----
+<div align="center">
 
 ## 🧠 About Me
 
@@ -44,6 +35,8 @@ class EmbodiedAIResearcher:
 researcher = EmbodiedAIResearcher()
 print(researcher.current_mission())
 ```
+
+</div>
 
 ---
 
