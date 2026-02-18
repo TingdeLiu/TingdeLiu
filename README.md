@@ -127,21 +127,6 @@ print(researcher.current_mission())
 
 ---
 
-> 💭 "Language is the bridge between human intention and robotic action"
-
----
-
-## 📫 Connect With Me
-
-<div align="center">
-  
-[![Email](https://img.shields.io/badge/-tingde.liu.luh@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tingde.liu.luh@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tingde-liu-379818270/)
-[![Personal Website](https://img.shields.io/badge/-Website-FF7139?style=for-the-badge&logo=About.me&logoColor=white)](https://tingdeliu.github.io/)
-
-</div>
-
----
 
 <div align="center">
   
