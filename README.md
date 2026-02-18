@@ -51,15 +51,16 @@ print(researcher.current_mission())
 <td width="33%">
 
 ### 🤖 Embodied AI
-- **Vision-Language Navigation (VLN)**
-- Embodied Question Answering
-- Instruction Following in 3D Environments
-- Multi-Modal Sensor Fusion
+- Vision-Language Navigation (VLN)
+- Vision-Language Action (VLA)
+- World Models
+- Diffusion Policy
 
 </td>
 <td width="33%">
 
 ### 🧭 Robot Navigation
+- Vision SLAM
 - Semantic SLAM
 - Object-Goal Navigation
 - Sim-to-Real Transfer
