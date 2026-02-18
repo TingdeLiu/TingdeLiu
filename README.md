@@ -10,14 +10,6 @@
 
 ```
 
-</div>
-
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7F4&center=true&vCenter=true&width=500&lines=Embodied+AI+Engineer+🤖;Vision-Language+Navigation+Researcher;Building+Robots+That+Understand+Language)](https://git.io/typing-svg)
-
-</div>
-
 ---
 
 ## 🧠 About Me
