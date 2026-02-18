@@ -14,9 +14,32 @@
 
 ## 🧠 About Me
 ```
-<p align="center">
-  <img src="carbon.png" alt="Tingde Liu's Profile" width="600">
-</p>
+class EmbodiedAIResearcher:
+    def __init__(self):
+        self.name = "Tingde Liu"
+        self.role = "Embodied AI Engineer"
+        self.research_focus = [
+            "Vision-Language Navigation (VLN)",
+            "Robot Perception",
+            "Multimodal Learning"
+        ]
+        self.current_work = "Building intelligent agents that understand language and navigate physical spaces"
+        
+    def get_skills(self):
+        return {
+            "Languages": ["Python", "C++", "CUDA"],
+            "Frameworks": ["PyTorch", "ROS", "Habitat-Sim", "NVIDIA Isaac"],
+            "Research": ["VLN", "Embodied AI", "Multimodal Fusion"],
+            "Tools": ["Docker", "Weights&Biases", "Isaac Sim", "Gazebo"]
+        }
+    
+    def current_mission(self):
+        return "Bridging the gap between language understanding and robotic navigation 🚀"
+
+# Initialize
+researcher = EmbodiedAIResearcher()
+print(researcher.current_mission())
+
 ```
 ---
 
