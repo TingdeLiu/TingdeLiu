@@ -10,9 +10,12 @@
 
 ```
 
+
 ---
 
 ## 🧠 About Me
+</div>
+
 ```
 class EmbodiedAIResearcher:
     def __init__(self):
@@ -42,7 +45,7 @@ print(researcher.current_mission())
 
 ```
 ---
-
+<div align="center">
 ## 🔬 Research Interests
 
 <table>
