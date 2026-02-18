@@ -4,7 +4,7 @@
   | | | | '_ \ / _` | |   | | | | | '_ \ 
   | | | | | | | (_| | |___| | |_| | |_) |
   |_| |_|_| |_|\__, |_____|_|\__,_|_.__/ 
-               |___/                      
+               |___/                       
 ```
 
 <div align="center">
@@ -58,6 +58,7 @@ print(researcher.current_mission())
 - Embodied Question Answering
 - Instruction Following in 3D Environments
 - Multi-Modal Sensor Fusion
+- **Agentic AI**
 
 </td>
 <td width="50%">
@@ -104,44 +105,16 @@ print(researcher.current_mission())
 
 <div align="center">
 
-### Languages & Frameworks
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-
-### Robotics & AI
 ![ROS](https://img.shields.io/badge/-ROS-22314E?style=for-the-badge&logo=ros&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-
-### Tools
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
----
-
-## 🎓 Publications & Research
-
-```bibtex
-# 📝 在这里添加你的论文引用
-# @inproceedings{liu2024vln,
-#   title={Your Vision-Language Navigation Paper},
-#   author={Liu, Tingde and others},
-#   booktitle={Conference on Robot Learning (CoRL)},
-#   year={2024}
-# }
-```
-
-<div align="center">
-
-**💡 Interested in my research? Check out my publications:**
-
-[![Google Scholar](https://img.shields.io/badge/-Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/)
-[![Personal Website](https://img.shields.io/badge/-Website-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://tingdeliu.github.io/)
 
 </div>
 
