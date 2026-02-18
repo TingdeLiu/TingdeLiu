@@ -14,7 +14,9 @@
 
 ## 🧠 About Me
 
-```python
+<div align="center">
+<pre>
+<code class="language-python">
 class EmbodiedAIResearcher:
     def __init__(self):
         self.name = "Tingde Liu"
@@ -40,7 +42,9 @@ class EmbodiedAIResearcher:
 # Initialize
 researcher = EmbodiedAIResearcher()
 print(researcher.current_mission())
-```
+</code>
+</pre>
+</div>
 
 ---
 
