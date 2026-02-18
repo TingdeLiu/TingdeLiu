@@ -83,23 +83,21 @@ print(researcher.current_mission())
 
 ## 📊 GitHub Stats
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/TingdeLiu">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TingdeLiu&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&icon_color=00F7F4&text_color=C9D1D9&count_private=true&include_all_commits=true" alt="TingdeLiu's GitHub Stats" />
+  </a>
+  <a href="https://github.com/TingdeLiu">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TingdeLiu&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&text_color=C9D1D9&langs_count=8&hide=html,css" alt="TingdeLiu's Top Languages" />
+  </a>
+</p>
 
-<a href="https://github.com/TingdeLiu">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TingdeLiu&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&icon_color=00F7F4&text_color=C9D1D9&count_private=true&include_all_commits=true&cache_seconds=1800" alt="GitHub Stats" />
-</a>
+<p align="center">
+  <a href="https://github.com/TingdeLiu">
+    <img src="https://streak-stats.demolab.com?user=TingdeLiu&theme=radical&hide_border=true&background=0D1117&ring=00F7F4&fire=00F7F4&currStreakLabel=00F7F4" alt="TingdeLiu's GitHub Streak" />
+  </a>
+</p>
 
-<a href="https://github.com/TingdeLiu">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TingdeLiu&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&text_color=C9D1D9&langs_count=8&hide=html,css&cache_seconds=1800" alt="Top Languages" />
-</a>
-
-<br/>
-
-<a href="https://github.com/TingdeLiu">
-  <img src="https://streak-stats.demolab.com?user=TingdeLiu&theme=radical&hide_border=true&background=0D1117&ring=00F7F4&fire=00F7F4&currStreakLabel=00F7F4" alt="GitHub Streak" />
-</a>
-
-</div>
 
 ---
 
