@@ -48,7 +48,7 @@ print(researcher.current_mission())
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%">
 
 ### 🤖 Embodied AI
 - **Vision-Language Navigation (VLN)**
@@ -57,7 +57,7 @@ print(researcher.current_mission())
 - Multi-Modal Sensor Fusion
 
 </td>
-<td width="50%">
+<td width="33%">
 
 ### 🧭 Robot Navigation
 - Semantic SLAM
@@ -66,9 +66,16 @@ print(researcher.current_mission())
 - End-to-End Learning for Navigation
 
 </td>
-</tr>
+<td width="33%">
 
-- **Agentic AI**
+### 🎯 Agentic AI
+- Autonomous AI Agents
+- Multi-Agent Systems
+- Tool-Using AI
+- Reasoning & Planning
+
+</td>
+</tr>
 </table>
 
 ---
@@ -76,10 +83,10 @@ print(researcher.current_mission())
 ## 📊 GitHub Stats
 
 <div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TingdeLiu&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&icon_color=00F7F4&text_color=C9D1D9)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TingdeLiu&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&text_color=C9D1D9)
+<img src="https://github-readme-stats.vercel.app/api?username=TingdeLiu&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&icon_color=00F7F4&text_color=C9D1D9&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TingdeLiu&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&text_color=C9D1D9&langs_count=8" alt="Top Languages" />
 
 </div>
 
