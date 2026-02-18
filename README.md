@@ -91,12 +91,6 @@ print(researcher.current_mission())
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/TingdeLiu">
-    <img src="https://streak-stats.demolab.com?user=TingdeLiu&theme=radical&hide_border=true&background=0D1117&ring=00F7F4&fire=00F7F4&currStreakLabel=00F7F4" alt="TingdeLiu's GitHub Streak" />
-  </a>
-</p>
-
 
 ---
 
