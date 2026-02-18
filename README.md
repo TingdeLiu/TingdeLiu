@@ -47,6 +47,7 @@ print(researcher.current_mission())
 ```
 ---
 <div align="center">
+   
 ## 🔬 Research Interests
 
 <table>
