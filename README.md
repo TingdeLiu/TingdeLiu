@@ -25,6 +25,7 @@ class EmbodiedAIResearcher:
         self.research_focus = [
             "Vision-Language Navigation (VLN)",
             "Robot Perception",
+            "Robot Navigation",
             "Multimodal Learning"
         ]
         self.current_work = "Building intelligent agents that understand language and navigate physical spaces"
