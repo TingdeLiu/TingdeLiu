@@ -10,8 +10,79 @@
 
 ```
 
+</div>
 
 ---
+
+## 📌 Flagship Open-Source Project
+
+### [Tingde Liu · Research Notes](https://github.com/TingdeLiu/tingdeliu.github.io) — <sub>Chinese-language research knowledge base on Embodied AI & Vision-Language Navigation</sub>
+
+[![Stars](https://img.shields.io/github/stars/TingdeLiu/tingdeliu.github.io?style=for-the-badge&logo=github&color=F5A623&labelColor=0D1117)](https://github.com/TingdeLiu/tingdeliu.github.io/stargazers)
+[![Commits](https://img.shields.io/github/commit-activity/t/TingdeLiu/tingdeliu.github.io?style=for-the-badge&logo=git&logoColor=white&color=00F7F4&labelColor=0D1117)](https://github.com/TingdeLiu/tingdeliu.github.io/commits/main)
+[![Issues Closed](https://img.shields.io/github/issues-closed/TingdeLiu/tingdeliu.github.io?style=for-the-badge&label=ISSUES%20RESOLVED&color=3DA639&labelColor=0D1117)](https://github.com/TingdeLiu/tingdeliu.github.io/issues?q=is%3Aissue+is%3Aclosed)
+[![License](https://img.shields.io/badge/MIT_%2B_CC_BY_4.0-DUAL_LICENSED-EF9421?style=for-the-badge&labelColor=0D1117)](https://github.com/TingdeLiu/tingdeliu.github.io#许可与使用)
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🧑‍💻 Role — Creator & Lead Maintainer**
+
+Sole maintainer since **2026-01-04**. Personally responsible for all
+content authoring, site engineering, issue triage, and licensing
+compliance. See [MAINTAINERS.md](https://github.com/TingdeLiu/tingdeliu.github.io/blob/main/MAINTAINERS.md).
+
+**⭐ Reach — 76 stars** *(as of Sept 2026)*
+
+718 commits across **9 consecutive active months**. 17 research
+surveys, 6 technical deep-dives, ~57k lines of Markdown, 1003 figures.
+
+</td>
+<td width="50%" valign="top">
+
+**📰 Sustained Delivery — Weekly Digest**
+
+An ongoing **weekly embodied-navigation digest** curating new arXiv
+work into conclusions and a ranked reading list — shipped on a
+recurring cadence, not a one-off dump.
+
+**🛠️ Project Governance**
+
+Dual-licensed with third-party figure rights explicitly carved out,
+plus published [contributing](https://github.com/TingdeLiu/tingdeliu.github.io/blob/main/CONTRIBUTING.md)
+and [security](https://github.com/TingdeLiu/tingdeliu.github.io/blob/main/SECURITY.md) policies.
+
+</td>
+</tr>
+</table>
+
+**🤝 Community Feedback — 5 / 5 resolved (100%), 1–3 day turnaround**
+
+Reader reports arrive through an in-article feedback widget. Every one has been
+verified against the source paper and answered personally — including the one
+I **declined with a stated scope rationale**. Full log with links:
+[Community feedback record →](https://github.com/TingdeLiu/tingdeliu.github.io/blob/main/MAINTAINERS.md#社区反馈处理记录)
+
+| # | Reporter | Report | Outcome | Days |
+|---|---|---|---|---|
+| [#17](https://github.com/TingdeLiu/tingdeliu.github.io/issues/17) | @feigemicer-cloud | Table failed to render in DL survey | ✅ Fixed — traced to a missing blank line before the table | 1 |
+| [#8](https://github.com/TingdeLiu/tingdeliu.github.io/issues/8) | @cbcbHH | Proposed adding OnFly (aerial VLN) | ⚖️ Declined — scope is indoor robot VLN; reasoning given | 3 |
+| [#7](https://github.com/TingdeLiu/tingdeliu.github.io/issues/7) | @11klow | Add paper venues; group by methodology | ✅ Shipped — venue table + interactive tag filter | 1 |
+| [#6](https://github.com/TingdeLiu/tingdeliu.github.io/issues/6) | @jiangqs472-sketch | AwareVLN SR/SPL/OS mismatched the paper | ✅ Fixed — re-verified against source | 3 |
+| [#5](https://github.com/TingdeLiu/tingdeliu.github.io/issues/5) | @DAHM7048 | MathJax broken in diffusion section | ✅ Fixed | 3 |
+
+**📄 Licensing** — [MIT](https://github.com/TingdeLiu/tingdeliu.github.io/blob/main/LICENSE) for site code · [CC BY 4.0](https://github.com/TingdeLiu/tingdeliu.github.io/blob/main/LICENSE-CONTENT) for original writing · third-party paper figures explicitly **excluded** and left with their original rights holders.
+
+<p align="center">
+  <a href="https://tingdeliu.github.io/"><img src="https://img.shields.io/badge/📖_Read_the_site-tingdeliu.github.io-2563EB?style=flat-square" alt="Site" /></a>
+  <a href="https://github.com/TingdeLiu/tingdeliu.github.io/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/🤝_Contributing-guide-3DA639?style=flat-square" alt="Contributing" /></a>
+  <a href="https://github.com/TingdeLiu/tingdeliu.github.io/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/🔒_Security-policy-DC2626?style=flat-square" alt="Security" /></a>
+</p>
+
+---
+
+<div align="center">
 
 ## 🧠 About Me
 
