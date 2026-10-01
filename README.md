@@ -1,126 +1,145 @@
-<h1 align="center">Tingde Liu</h1>
+<div align="center">
 
-<p align="center">
-  Embodied AI engineer · semantic navigation, SLAM and vision-language navigation<br>
-  M.Sc. Robotics, Leibniz Universität Hannover
-</p>
+```
+████████╗██╗   ██╗███╗   ██╗██████╗  █████╗ ██╗     ██╗            ██╗      █████╗ ██████╗ ███████╗
+╚══██╔══╝╚██╗ ██╔╝████╗  ██║██╔══██╗██╔══██╗██║     ██║            ██║     ██╔══██╗██╔══██╗██╔════╝
+   ██║    ╚████╔╝ ██╔██╗ ██║██║  ██║███████║██║     ██║            ██║     ███████║██████╔╝███████╗
+   ██║     ╚██╔╝  ██║╚██╗██║██║  ██║██╔══██║██║     ██║            ██║     ██╔══██║██╔══██╗╚════██║
+   ██║      ██║   ██║ ╚████║██████╔╝██║  ██║███████╗███████╗       ███████╗██║  ██║██████╔╝███████║
+   ╚═╝      ╚═╝   ╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝       ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝
 
-<p align="center">
-  <a href="https://tingdeliu.github.io/">Blog</a> ·
-  <a href="https://tingdeliu.github.io/VLN-Survey/">VLN Survey</a> ·
-  <a href="mailto:tingde.liu.luh@gmail.com">Email</a>
-</p>
+```
 
-I build navigation systems that run on real robots, and I write down what works and what does not. My work sits between classical robotics (SLAM, Nav2, frontier exploration) and learned policies (VLN, VLA), with ROS 2 as the glue.
 
 ---
 
-## Selected work
+## 🧠 About Me
+
+</div>
+
+```
+class EmbodiedAIResearcher:
+    def __init__(self):
+        self.name = "Tingde Liu"
+        self.role = "Embodied AI Engineer"
+        self.research_focus = [
+            "Vision-Language Navigation (VLN)",
+            "Robot Agentic Navigation",
+            "Multimodal Learning"
+        ]
+        self.current_work = "Building intelligent agents that understand language and navigate physical spaces"
+        
+    def get_skills(self):
+        return {
+            "Languages": ["Python", "C++", "CUDA"],
+            "Frameworks": ["PyTorch", "ROS", "Habitat-Sim", "NVIDIA Isaac"],
+            "Research": ["VLN", "Embodied AI", "Multimodal Fusion"],
+            "Tools": ["Docker", "Weights&Biases", "Isaac Sim", "Gazebo"]
+        }
+    
+    def current_mission(self):
+        return "Bridging the gap between language understanding and robotic navigation 🚀"
+
+# Initialize
+researcher = EmbodiedAIResearcher()
+print(researcher.current_mission())
+
+```
+---
+<div align="center">
+   
+## 🔬 Research Interests
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%">
 
-### [Semantic-Nav](https://github.com/TingdeLiu/Semantic-Nav)
-**Object-goal navigation on a real robot (ROS 2).**
-YOLOv8 3D detections and RTAB-Map SLAM become a persistent, queryable semantic map. Ask for a category and the robot navigates there through Nav2. If the object is not on the map yet, it explores frontiers until it finds one.
-
-`ROS 2 Humble` `RTAB-Map` `Nav2` `YOLOv8` `Wheeltec` `Orbbec Gemini 336L`
-
-<a href="https://github.com/TingdeLiu/Semantic-Nav"><img src="https://raw.githubusercontent.com/TingdeLiu/Semantic-Nav/main/semantic_map_0000.png" alt="Semantic-Nav semantic map overlaid on the occupancy grid" width="100%"></a>
+### 🤖 Embodied AI
+- Vision-Language Navigation (VLN)
+- Vision-Language Action (VLA)
+- World Models
+- Diffusion Policy
 
 </td>
-<td width="50%" valign="top">
+<td width="33%">
 
-### [rrt_exploration](https://github.com/TingdeLiu/rrt_exploration)
-**Autonomous exploration: RRT vs hybrid frontier detection (HFD / RRT+).**
-Gazebo + ROS 2 platform with A* and B-spline global planning and DWA local control. Dockerized, with noVNC access. HFD / RRT+ explored faster than RRT on all four recorded maps (4.6–12.6 % less time), at the cost of slightly longer paths. Single runs per map, so these are demonstrations, not a benchmark.
+### 🧭 Robot Navigation
+- Semantic SLAM
+- Object-Goal Navigation
+- Sim-to-Real Transfer
+- End-to-End Learning for Navigation
 
-`ROS 2 Humble` `Gazebo` `A*` `DWA` `Docker`
+</td>
+<td width="33%">
 
-<a href="https://github.com/TingdeLiu/rrt_exploration"><img src="https://raw.githubusercontent.com/TingdeLiu/rrt_exploration/main/Demo/map5/rrt_plus/rrt_exploration.png" alt="HFD / RRT+ exploration on map 5" width="100%"></a>
+### 🎯 Agentic AI
+- Autonomous AI Agents
+- Multi-Agent Systems
+- Tool-Using AI
+- Reasoning & Planning
 
 </td>
 </tr>
 </table>
 
-| Project | Question | Outcome |
-| --- | --- | --- |
-| [TurboVLN](https://github.com/TingdeLiu/TurboVLN) | Does the TurboVLA recipe (GroundingDINO bidirectional fusion, DINOv3, ACT chunk decoding) transfer from manipulation to R2R-CE? | **No-Go**, fully documented. Three grounding pilots reached 9.42–14.13 % exact patch accuracy against a 60 % gate. 202 CPU tests, geometry pinned against InternNav. |
-| [SplaTAM (fork)](https://github.com/TingdeLiu/SplaTAM) | Can SplaTAM run on real sensors rather than benchmark sequences? | Deployment guides and scripts for Orbbec Astra S, Orbbec Gemini 336L and iPhone LiDAR. Online and offline SLAM, ROS 2 bag conversion, CloudCompare PLY export. Runs on a Wheeltec robot with a Jetson Orin NX. |
-| [tls-uncertainty-modeling](https://github.com/TingdeLiu/tls-uncertainty-modeling) | Can a network predict point-wise range residuals of a terrestrial laser scanner? | RePN, a multi-scale PointNet-style regressor, on 2.53 M Z+F IMAGER 5016 measurements. In the original study, mean residual 0.387 mm → 0.009 mm after calibration. Study data is not released. |
-
 ---
 
-## Robot stack
-
-The platform behind the navigation and mapping projects, as documented in the repositories:
-
-```mermaid
-flowchart LR
-    subgraph HW["Hardware"]
-        Base["Wheeltec 4WD chassis<br/>odometry"]
-        Cam["Orbbec Gemini 336L / Astra S<br/>RGB-D"]
-        Compute["Jetson Orin NX 16 GB"]
-    end
-    subgraph MW["Middleware"]
-        ROS["ROS 2 Humble"]
-    end
-    subgraph Perception["Perception and mapping"]
-        RTAB["RTAB-Map SLAM"]
-        YOLO["YOLOv8 · 3D detection"]
-        Splat["SplaTAM · Gaussian splatting"]
-    end
-    subgraph Autonomy["Autonomy"]
-        Sem["Persistent semantic map"]
-        Nav["Nav2 · NavigateToPose"]
-        Explore["Frontier exploration"]
-    end
-    Base --> ROS
-    Cam --> ROS
-    Compute --- ROS
-    ROS --> RTAB --> Sem
-    ROS --> YOLO --> Sem
-    ROS --> Splat
-    Sem --> Nav
-    Sem --> Explore --> Nav
-```
-
----
-
-## Writing
-
-Long-form survey and reading notes on [my blog](https://tingdeliu.github.io/), kept up to date as the field moves.
-
-| Topic | Posts |
-| --- | --- |
-| Vision-language navigation | [VLN Survey](https://tingdeliu.github.io/VLN-Survey/) · [Papers: instruction following](https://tingdeliu.github.io/VLN-Papers/) · [Papers: object-goal and extended](https://tingdeliu.github.io/VLN-Papers-Extended/) |
-| Embodied agents | [Embodied Agent Harness Survey](https://tingdeliu.github.io/Embodied-Agent-Harness-Survey/) · [Embodied Agent Papers](https://tingdeliu.github.io/Embodied-Agent-Papers/) |
-| Models and perception | [VLA](https://tingdeliu.github.io/VLA-Survey/) · [VLM](https://tingdeliu.github.io/VLM-Survey/) · [World Models](https://tingdeliu.github.io/World-Models-Survey/) · [Spatial Intelligence](https://tingdeliu.github.io/Spatial-Intelligence-Survey/) |
-| Robotics fundamentals | [Robot Navigation](https://tingdeliu.github.io/Robot-Navigation-Survey/) · [ROS 2 architecture](https://tingdeliu.github.io/ROS2-Survey/) · [Reinforcement Learning](https://tingdeliu.github.io/Reinforcement-Learning-Survey/) |
-| Weekly digest | Embodied-navigation weekly, for example [2026-09-27](https://tingdeliu.github.io/vln-weekly-2026-09-27/) |
-
----
-
-## Toolbox
-
-| Area | Tools |
-| --- | --- |
-| Robotics | ROS 2, Nav2, RTAB-Map, Gazebo, NVIDIA Isaac Sim, Habitat-Sim |
-| Learning | PyTorch, CUDA, Weights & Biases, DINOv3, GroundingDINO |
-| Languages | Python, C++ |
-| Engineering | Docker, uv, pytest, GitHub Actions, Ubuntu |
-
----
-
-## Open to
-
-Discussion and collaboration on VLN, semantic navigation, sim-to-real transfer and embodied-agent runtimes. The fastest way to reach me is [email](mailto:tingde.liu.luh@gmail.com).
-
----
+## 📊 GitHub Stats
 
 <p align="center">
-  <img alt="Breakout played on my GitHub contribution graph: every commit day is a brick" src="https://raw.githubusercontent.com/TingdeLiu/TingdeLiu/output/breakout-light.svg" width="100%">
-  <br>
-  <sub>A ball clears my last 12 months of commits, brick by brick. Regenerated daily by <a href="scripts/breakout.py"><code>scripts/breakout.py</code></a>.</sub>
+  <a href="https://github.com/TingdeLiu">
+    <img height="180em" src="https://github-readme-stats-one-bice.vercel.app/api?username=TingdeLiu&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&icon_color=00F7F4&text_color=C9D1D9&count_private=true&include_all_commits=true" alt="Stats" />
+  </a>
+  <a href="https://github.com/TingdeLiu">
+    <img height="180em" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=TingdeLiu&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&text_color=C9D1D9&langs_count=8&hide=html,css" alt="Languages" />
+  </a>
 </p>
+
+
+---
+
+## 🐍 Contribution Snake - Eating My Commits!
+
+<div align="center">
+  
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TingdeLiu/TingdeLiu/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TingdeLiu/TingdeLiu/output/github-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/TingdeLiu/TingdeLiu/output/github-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Claude](https://img.shields.io/badge/-Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![ROS](https://img.shields.io/badge/-ROS-22314E?style=flat-square&logo=ros&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![N8N](https://img.shields.io/badge/-N8N-FF6D5A?style=flat-square&logo=n8n&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Anaconda](https://img.shields.io/badge/-Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+</div>
+
+---
+
+
+<div align="center">
+  
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Let's%20Build%20Intelligent%20Robots!&fontSize=20&fontColor=fff&animation=twinkling&fontAlignY=75" />
+
+</div>
