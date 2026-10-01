@@ -116,3 +116,11 @@ Long-form survey and reading notes on [my blog](https://tingdeliu.github.io/), k
 ## Open to
 
 Discussion and collaboration on VLN, semantic navigation, sim-to-real transfer and embodied-agent runtimes. The fastest way to reach me is [email](mailto:tingde.liu.luh@gmail.com).
+
+---
+
+<p align="center">
+  <img alt="Breakout played on my GitHub contribution graph: every commit day is a brick" src="https://raw.githubusercontent.com/TingdeLiu/TingdeLiu/output/breakout-light.svg" width="100%">
+  <br>
+  <sub>A ball clears my last 12 months of commits, brick by brick. Regenerated daily by <a href="scripts/breakout.py"><code>scripts/breakout.py</code></a>.</sub>
+</p>
