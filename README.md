@@ -84,20 +84,6 @@ print(researcher.current_mission())
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <a href="https://github.com/TingdeLiu">
-    <img height="180em" src="https://github-readme-stats-one-bice.vercel.app/api?username=TingdeLiu&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&icon_color=00F7F4&text_color=C9D1D9&count_private=true&include_all_commits=true" alt="Stats" />
-  </a>
-  <a href="https://github.com/TingdeLiu">
-    <img height="180em" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=TingdeLiu&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F4&text_color=C9D1D9&langs_count=8&hide=html,css" alt="Languages" />
-  </a>
-</p>
-
-
----
-
 ## 🐍 Contribution Snake - Eating My Commits!
 
 <div align="center">
