@@ -46,83 +46,12 @@ print(researcher.current_mission())
 
 ```
 ---
-<div align="center">
-   
-## 🔬 Research Interests
 
-<table>
-<tr>
-<td width="33%">
+## 🌱 Who I Am & What I Aspire To
 
-### 🤖 Embodied AI
-- Vision-Language Navigation (VLN)
-- Vision-Language Action (VLA)
-- World Models
-- Diffusion Policy
-
-</td>
-<td width="33%">
-
-### 🧭 Robot Navigation
-- Semantic SLAM
-- Object-Goal Navigation
-- Sim-to-Real Transfer
-- End-to-End Learning for Navigation
-
-</td>
-<td width="33%">
-
-### 🎯 Agentic AI
-- Autonomous AI Agents
-- Multi-Agent Systems
-- Tool-Using AI
-- Reasoning & Planning
-
-</td>
-</tr>
-</table>
+I'm Tingde Liu, an embodied AI engineer exploring how intelligent agents can understand language, perceive the world, and act in physical spaces. My work brings together robotics, vision-language navigation, and multimodal learning, with a focus on turning ideas into systems that work in the real world. My long-term aspiration is to help realize artificial general intelligence (AGI): agents that can learn across tasks, reason about unfamiliar situations, and turn understanding into useful action. I see embodied intelligence as a path toward that goal, and I want to contribute through open research, practical engineering, and sharing what I learn.
 
 ---
-
-## 🐍 Contribution Snake - Eating My Commits!
-
-<div align="center">
-  
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TingdeLiu/TingdeLiu/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TingdeLiu/TingdeLiu/output/github-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/TingdeLiu/TingdeLiu/output/github-snake.svg" />
-</picture>
-
-</div>
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Claude](https://img.shields.io/badge/-Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![ROS](https://img.shields.io/badge/-ROS-22314E?style=flat-square&logo=ros&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![N8N](https://img.shields.io/badge/-N8N-FF6D5A?style=flat-square&logo=n8n&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Anaconda](https://img.shields.io/badge/-Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-</div>
-
----
-
 
 <div align="center">
   
